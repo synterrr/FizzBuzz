@@ -1,9 +1,9 @@
-defmodule Fizzbuzz.MixProject do
+defmodule FizzBuzz.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :fizzbuzz,
+      app: :fizz_buzz,
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
